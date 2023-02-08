@@ -1,0 +1,28 @@
+This is my first time configuring my i3wm desktop, pardon me if there's anyhting missing: 
+
+Required packages: 
+-kitty (Terminal emulator)
+-Thunar
+-firefox
+-xfce4-settings
+-alsa
+-mpd
+-network-manager
+-rofi-theme-selector
+-btop
+-picom
+-i3wm
+
+The polybar and rofi themes from these github repo:
+https://github.com/adi1090x/polybar-themes
+https://github.com/adi1090x/rofi
+
+Theme used: Material
+Inside material folder in polybar there're weather.sh (open-meteo API based on latitude and longitude) and weather_toggle.sh (time between each request to open meteo) that I wrote myself, change them based on what you want.
+
+rofi-themes install at $HOME/.local/share/rofi; theme used: Dracula (Dracula1).
+Dracula themes: https://draculatheme.com/rofi
+
+i3 folder includes my own i3wm configuration and the background I used
+
+In kitty folder, there's an ascii file that I used to change the neofetch logo (How to change like what I did see neofetch article in ArchWiki).
